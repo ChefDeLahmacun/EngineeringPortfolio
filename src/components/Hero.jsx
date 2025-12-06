@@ -19,7 +19,7 @@ const Hero = () => {
             Get in Touch
           </a>
           <a
-            href="/resume.pdf"
+            href="/Emre_Canogullari_CV.pdf"
             download
             className="px-6 py-3 border border-gray-300 text-gray-700 rounded-lg hover:border-primary-600 hover:text-primary-600 transition-colors"
           >
