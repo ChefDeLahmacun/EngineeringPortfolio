@@ -25,14 +25,14 @@ const About = () => {
         {/* Bio Text */}
         <div className="max-w-3xl mx-auto space-y-4 text-gray-600 leading-relaxed mb-8">
           <p>
-            I'm a dedicated Electrical & Electronic Engineering student at University of Southampton, 
+            I'm a dedicated BEng Electrical & Electronic Engineering student at University of Southampton, 
             passionate about designing and building innovative electronic systems. My academic 
             journey has equipped me with strong theoretical knowledge and practical skills in 
-            circuit design, embedded systems, and software development.
+            circuit design, embedded systems, and software development. I dedicate my free time building new projects, especially PCB design related projects, as well as learning new skills and technologies.
           </p>
           
           <p>
-            Throughout my studies, I've worked on diverse projects ranging from hardware design 
+            Throughout my studies and internship experiences, I've worked on diverse projects ranging from hardware design 
             to software development, always focusing on creating practical solutions to real-world 
             problems. I enjoy the challenge of integrating hardware and software to build complete 
             systems.
