@@ -46,7 +46,7 @@ export const projectsData = [
     longDescription: "I built a simple neural network using C++ to predict a decimal output from a given binary input. The neural network is a feedforward neural network with 1 hidden layer and 1 output layer. The input layer consists of 4 neurons, the hidden layer consists of 8 neurons, and the output layer consists of 16 neurons. The input layer is connected to the hidden layer by a weight matrix, and the hidden layer is connected to the output layer by a weight matrix. The neural network is trained using the backpropagation algorithm. The neural network is trained with a 4 bit binary input and a 1 bit decimal output. The neural network is able to predict the decimal output from the binary input with an accuracy of 90% after the training.",
     technologies: ["C++ Coding", "Neural Networks", " Backpropagation Algorithm", "Feedforward Neural Networks"],
     category: "Software",
-    github: null,
+    github: "https://github.com/ChefDeLahmacun/NeuralNetworkBinary",
     demo: null,
   },
   {
@@ -102,6 +102,16 @@ export const projectsData = [
   },
   {
     id: 11,
+    title: "Python GUI for the Voltage Source Project",
+    description: "Built a Python GUI for the Voltage Source Project.",
+    longDescription: "I built a Python GUI for the Voltage Source Project to allow the user to set the voltage output value they want, and display the voltage output value on the screen without needing to use a serial app such as PuTTY. The GUI is built using the Tkinter library, and is a simple GUI that allows the user to set the voltage output value they want, and display the voltage output value on the screen.",
+    technologies: ["Python", "Tkinter", "GUI", "Voltage Source", "Serial Communication", "UART"],
+    category: "Software",
+    github: "https://github.com/ChefDeLahmacun/VoltageSourceGUI",
+    demo: null,
+  },
+  {
+    id: 12,
     title: "Electronics Repairs",
     description: "Repaired broken electronic devices to function properly again.",
     longDescription: "As a person who was always into taking apart and fixing electronic devices, I try to fix most of the broken electronic devices of my relatives and friends myself. I have repaired a variety of devices, such Gaming Consoles, Controllers and Mouses. I am keen on learning even more about fault-finding to improve my skills. I believe in recycling and upcycling, therefore I want to fix as many devices as I can.",
@@ -111,16 +121,7 @@ export const projectsData = [
     demo: null,
   },
 
-  {
-    id: 12,
-    title: "Python GUI for the Voltage Source Project",
-    description: "Built a Python GUI for the Voltage Source Project.",
-    longDescription: "I built a Python GUI for the Voltage Source Project to allow the user to set the voltage output value they want, and display the voltage output value on the screen without needing to use a serial app such as PuTTY. The GUI is built using the Tkinter library, and is a simple GUI that allows the user to set the voltage output value they want, and display the voltage output value on the screen.",
-    technologies: ["Python", "Tkinter", "GUI", "Voltage Source", "Serial Communication", "UART"],
-    category: "Software",
-    github: "https://github.com/ChefDeLahmacun/VoltageSourceGUI",
-    demo: null,
-  },
+  
 ];
 
 export const categories = ["All", "Hardware", "Software", "Experimenting & Writing"];
