@@ -1,23 +1,24 @@
 export const skillsData = {
   "Programming Languages": [
-    { name: "C/C++", level: 90 },
-    { name: "Embedded C", level: 90 },
     { name: "SystemVerilog", level: 75 },
+    { name: "C/C++", level: 90 },
     { name: "Python", level: 70 },
-    { name: "MATLAB", level: 80 },
     { name: "Java", level: 70 },
+    { name: "Embedded C", level: 90 },
+    { name: "MATLAB", level: 80 },
 
   ],
   "Hardware & Design Tools": [
-    { name: "KiCad (PCB Design)", level: 85 },
-    { name: "LTSpice", level: 85 },
     { name: "FPGA Design (Altera Cyclone V)", level: 80 },
     { name: "ModelSim", level: 75 },
     { name: "Quartus Prime", level: 75 },
     { name: "Multisim", level: 85 },
+    { name: "Microcontrollers", level: 80 },
+    { name: "KiCad (PCB Design)", level: 85 },
+    { name: "LTSpice", level: 85 },
     { name: "Lab Tools (Oscilloscope, Logic Analyzer, Waveform Generator, Power Supply)", level: 90 },
     { name: "Arduino", level: 80 },
-    { name: "Microcontrollers", level: 80 },
+
 
   ],
   "Core Engineering": [

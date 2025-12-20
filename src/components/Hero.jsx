@@ -11,21 +11,12 @@ const Hero = () => {
         <p className="text-lg text-gray-500 max-w-2xl mx-auto mb-8">
           University of Southampton | Expected Graduation: July 2027
         </p>
-        <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-          <a
-            href="#contact"
-            className="px-6 py-3 bg-primary-600 text-white rounded-lg hover:bg-primary-700 transition-colors"
-          >
-            Get in Touch
-          </a>
-          <a
-            href="/Emre_Canogullari_CV.pdf"
-            download
-            className="px-6 py-3 border border-gray-300 text-gray-700 rounded-lg hover:border-primary-600 hover:text-primary-600 transition-colors"
-          >
-            Download CV
-          </a>
-        </div>
+        <a
+          href="#contact"
+          className="px-6 py-3 bg-primary-600 text-white rounded-lg hover:bg-primary-700 transition-colors inline-block"
+        >
+          Get in Touch
+        </a>
       </div>
     </section>
   );

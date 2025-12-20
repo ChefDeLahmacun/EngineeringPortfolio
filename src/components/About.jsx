@@ -28,7 +28,7 @@ const About = () => {
             I'm a dedicated BEng Electrical & Electronic Engineering student at University of Southampton, 
             passionate about designing and building innovative electronic systems. My academic 
             journey has equipped me with strong theoretical knowledge and practical skills in 
-            circuit design, embedded systems, and software development. I dedicate my free time building new projects, especially PCB design related projects, as well as learning new skills and technologies.
+            RTL Design, circuit design, embedded systems, and software development. I dedicate my free time building new projects, especially FPGA and PCB design related projects, as well as learning new skills and technologies.
           </p>
           
           <p>
@@ -49,10 +49,11 @@ const About = () => {
           <div className="bg-white p-6 rounded-lg border border-gray-200">
             <h3 className="font-semibold text-gray-900 mb-3 text-center">Key Interests</h3>
             <div className="flex flex-wrap justify-center gap-2">
-              <span className="px-3 py-1 bg-gray-50 text-gray-700 text-sm rounded border border-gray-200">Circuit Design</span>
-              <span className="px-3 py-1 bg-gray-50 text-gray-700 text-sm rounded border border-gray-200">Embedded Systems</span>
+              <span className="px-3 py-1 bg-gray-50 text-gray-700 text-sm rounded border border-gray-200">FPGA Design (SystemVerilog)</span>
               <span className="px-3 py-1 bg-gray-50 text-gray-700 text-sm rounded border border-gray-200">PCB Design</span>
               <span className="px-3 py-1 bg-gray-50 text-gray-700 text-sm rounded border border-gray-200">Software Development</span>
+              <span className="px-3 py-1 bg-gray-50 text-gray-700 text-sm rounded border border-gray-200">Circuit Design</span>
+              <span className="px-3 py-1 bg-gray-50 text-gray-700 text-sm rounded border border-gray-200">Embedded Systems</span>
               <span className="px-3 py-1 bg-gray-50 text-gray-700 text-sm rounded border border-gray-200">Chip Design</span>
               <span className="px-3 py-1 bg-gray-50 text-gray-700 text-sm rounded border border-gray-200">Electronics Repairs</span>
             </div>
